@@ -1,0 +1,13 @@
+# Generated / local files
+telemetry.db
+telemetry
+telemetry_export*.csv
+telemetry_log*.txt
+chart_*.html
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env

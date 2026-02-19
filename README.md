@@ -1,4 +1,5 @@
 # iiot-mqtt-telemetry
+# iiot-mqtt-telemetry
 # IIoT MQTT Telemetry Monitoring (HiveMQ Cloud → SQLite → Analytics + Charts)
 
 A simple IIoT monitoring demo built in Python. A “publisher” script simulates sensor data for multiple assets and publishes it over MQTT (TLS) to HiveMQ Cloud. A “collector” subscribes to the telemetry topics and stores messages in a local SQLite database. Analytics and interactive HTML charts are generated from the stored data.
